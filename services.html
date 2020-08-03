@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title> Services </title>
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+</style>
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+
+	<div class= "row">
+		<div class= "header">
+			<img src="kukulite.png">
+		</div>
+		<nav>
+		<a href = "index.html"> home </a>
+		<a href = "about.html"> about us </a>
+		<a href = "services.html"> services </a>
+		<a href = "contact.html"> contact us </a>
+		</nav>
+	</div>
+	
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="kuku.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="mayai.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="vifaranga.jpg" style="width:100%">
+</div>
+	<div class="mySlides fade">
+		<img src="nyama.jpg" style="width:100%">
+	</div>
+</body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
