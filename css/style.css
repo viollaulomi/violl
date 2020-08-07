@@ -30,11 +30,9 @@
 .about p{
 	flex:2;
 	font-size: 20px;
-}
 nav{
 	flex:2;
-}
-nav a{
+.nav a{
 	flex:2;
 	padding: 10px;
 	color:rgb(0,0,0);
@@ -62,5 +60,4 @@ label{
 
 
 .
-
 
