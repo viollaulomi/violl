@@ -7,7 +7,8 @@
 .row{
 	width:100%;
 	display:flex;
-	align-items: center;
+	justify-content:space-between;
+	align-items:center;
 }
 .center{
 	margin: 0px 45%;
@@ -20,6 +21,19 @@
 	padding:10px 20px;
 	font-size:25px;
 }
+nav{
+	flex:2;
+	display:flex;
+}
+
+nav a{
+	flex:1;
+	padding: 10px;
+	color:rgb(0,0,0);
+	font-size:30px;
+	text-decoration:none;
+}
+
 .about{
 	padding: 20px 100px;
 }
@@ -30,9 +44,12 @@
 .about p{
 	flex:2;
 	font-size: 20px;
+}
 nav{
 	flex:2;
-.nav a{
+}
+
+nav a{
 	flex:2;
 	padding: 10px;
 	color:rgb(0,0,0);
@@ -54,10 +71,13 @@ label{
 label{
 	padding: 3px;
 }
+.body{
+	width:
+	
 
 
 
 
 
-.
+
 
