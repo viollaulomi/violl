@@ -70,9 +70,20 @@ label{
 
 label{
 	padding: 3px;
+	
+
+. row kuhusu{
+	padding: 20px 100px;
 }
-.body{
-	width:
+
+.kuhusu h1{
+	flex:1;
+	font-size: 50px;
+}
+.kuhusu p{
+	flex: 2;
+	font-size: 20px;
+}
 	
 
 
