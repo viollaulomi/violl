@@ -3,6 +3,9 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+.header-row{
+	background-color:#ccc;
+}
 
 .row{
 	width:100%;
@@ -29,7 +32,7 @@ nav{
 nav a{
 	flex:1;
 	padding: 10px;
-	color:rgb(0,0,0);
+	color:rgb(0,0,0)
 	font-size:30px;
 	text-decoration:none;
 }
