@@ -8,7 +8,6 @@
 	width:100%;
 	display:flex;
 	justify-content:space-between;
-	align-items:flex-start;
 }
 .header-row{
 	width:100%;
@@ -16,12 +15,10 @@
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
+	background-color:white;
 }
 .center{
 	margin: 0px 45%;
-}
-.row header-row{
-	background-color:blue;
 }
 .logo{
 	flex:1;
@@ -47,7 +44,7 @@ nav a{
 	text-decoration:none;
 }
 
-.about{
+.row-kuhusu{
 	padding: 20px 100px;
 }
 .about h1{
@@ -69,16 +66,34 @@ nav a{
 	font-size:30px;
 	text-decoration:none;
 }
-.header-row{
-	background-color:red;
+.border{
+	padding:10px;
+	flex: 2;
+	margin:10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1%;
+	border-width: 10%;
+}
+.row-huduma, .van,.yoo,.kuku{
+	flex:2;
+	padding: 10px;
 }
 
-.colmn{
+.column{
 	flex:1;
 	padding: 0px 20px;
 }
+.column h1{
+	flex:1;
+	font-size: 20px;
+}
+.column p{
+	flex:2;
+	font-size: 20px;
+}
 label{
-	padding: 1px;
+	padding: 1p
 }
 
 .contact{
@@ -109,6 +124,7 @@ label{
 	display: flex;
 	align-items: center;
 	background-color:#2d2d2d;
+	color: white;
 }
 .column{
 	flex: 0.5;
