@@ -181,10 +181,18 @@ label{
 	
 }
 
-.row contact{
-	padding:0px 20px;
-	align-items:center;
-	margin:50px;
+.row, .contact h3{
+	padding:20px 50px;
+	text-align:center;
+	font-size:30px;
+	margin:10px;
+}
+
+.row, .information h3{
+	padding:20px 50px;
+	text-align:center;
+	font-size:30px;
+	margin:10px;
 }
 
 .row-call{
@@ -211,10 +219,10 @@ align-self: flex-start;
 	font-size:18px;
 }
 .ray{
-	padding:30px;
+	padding:20px;
 	flex:2;
-	margin:30px
-	align-items:center
+	margin:30px;
+	text-align:center;
 	
 }
 
