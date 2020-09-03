@@ -4,6 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title> HOME </title>
+		
+		<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+</style>
 
 			<link rel="stylesheet" href="./css/style.css">
 	</head>
@@ -21,21 +37,43 @@
 			<a href = "contact.html"> mawasiliano </a>
 		</nav>
 	</div>
-	
-	
-	
-	<div class = "row">
-		<img class="slider" src="./kuku.jpg" width="100%" height="450px">
 	</div>
-	<div class= "row-kuhusu">
-		<br>
-		<h1>Kuhusu Kukulite</h1>
-		<br>
-		<p> ni project inayojihusisha na ufugaji  na uzalishaji wa kuku pamoja na nama ya kuku,mayai na kuku wakufuga. ni project inayojihusisha na ufugaji  na uzalishaji wa kuku pamoja na nyama za kuku,mayai na kuku wakufuga.Tunatoa huduma ya kuku, nyama, na mayai. </p>
+	
+	<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="./kuku.jpg" style="width:100%; height: 500px;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./mayai.jpg" style="width:100%; height:500px;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./vifaranga2.jpg" style="width:100%; height: 500px;">
+</div>
+	<div class="mySlides fade">
+		<img src="./wengi kuku.jpg" style="width:100%; height: 500px;">
 	</div>
-		
+	
+	</div>
+	
+	
+	
 	
 	<div class="row">
+		<h1 class="centered-title">Kuhusu Kukulite</h1>
+	</div>
+	
+	<div class= "row-kuhusu">
+		<p>Kukulite ni project inayojihusisha na ufugaji  na uzalishaji wa kuku pamoja na nama ya kuku,mayai na kuku wakufuga. ni project inayojihusisha na ufugaji  na uzalishaji wa kuku pamoja na nyama za kuku,mayai na kuku wakufuga.Tunatoa huduma ya kuku, nyama, na mayai. </p>
+	</div>
+		
+	<div class="row">
+		<h1 class="centered-title">Huduma Zetu</h1>
+	</div>
+	
+	<div class="row huduma">
 		<div class= "border">
 		<img src = "./kuku.jpg" width="100px" height="100px">
 		<h1> KUKU </h1>
@@ -43,7 +81,7 @@
 		</div>
 			
 		<div class= "border">
-		<img src = "./mayai.jpg" width="100px" height="100px">
+		<img src = "./mayai2.jpg" width="100px" height="100px">
 		<h1> MAYAI </h1>
 		<p> Pata mayai ya kisasa, kienyeji na pia kama unahitaji mayai kwa ajili ya kutotolewa una pata pia </p>
 		</div>
@@ -54,37 +92,35 @@
 		<p> Pia kuna vifaranga kwa ajili ya kufuga utapata. Kuna vifaranga vya aina zote </p>
 		</div>
 	</div>
-	<div class = "row message">
-		<h3> kama unahitaji huduma hii tafadhali jaza fomu ifuatayo: </h3>
-	</div>
 	
-		<div class = "row form">
+	<div class = "row form">
+		<h3> Unahitaji huduma? <br> Jaza fomu ili tuweze kukuhudumia. </h3>
 		<form>
-			<label> jina 
-				<input type = "text">
+			<label> Jina lako<br>
+				<input type = "text" placeholder="Mf: Juma Rajabu">
 			</label>
 			</br>
-			<label> email
-				<input type = "text">
+			<label>Barua pepe <br>
+				<input type = "text" placeholder="Mf: rajabujuma@gmail.com">
 			</label>
 			<br>
-			<label> namba ya simu
-				<input type = "text">
+			<label> Namba ya simu <br>
+				<input type = "text" placeholder="Mf: 0788000000">
 			<label>
 			</br>
-			<label> huduma unayohitaji
-				<input type = "text">
+			<label> Huduma unayohitaji <br>
+				<input type = "text" placeholder="Mf: Kuku">
 			</label>
 			</br>
-			<label> kwa mda gani/miaka(mkataba)
-				<input type = "text">
+			<label> Kwa muda gani(miezi) <br>
+				<input type = "text" placeholder="Mf: 12">
 			</label>
 			</br>
-			<label> sahihi
-				<input type = "text">
+			<label> Sahihi <br>
+				<input type = "text" placeholder="Mf: J.Rajabu">
 			</label>
-				
-			
+			<br>
+			<input type="submit" value="Tuma">
 		</form>
 		</div>
 		
@@ -104,8 +140,25 @@
 	<p> huduma inayopatikana nia ya mayai, kuku, na vifaranga. </p>
 </div>
 
-		
+</div>	
 </body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 
 </html>
 

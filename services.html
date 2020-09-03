@@ -2,21 +2,7 @@
 <html>
 <head>
 <title> Services </title>
-<style>
-* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-</style>
 
 <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -24,57 +10,45 @@
 
 <body>
 
-	<div class= "row header-row">
-		<div class= "header">
+
+
+	<div class= "header-row">
+	<div class = "logo">
 			<img src="./logo.png">
 		</div>
+	
 		<nav>
-		<a href = "index.html"> nyumbani </a>
-		<a href = "about.html"> kuhusu </a>
-		<a href = "services.html"> huduma </a>
-		<a href = "contact.html"> mawasiliano </a>
+			<a href = "index.html"> nyumbani </a>
+			<a href = "about.html"> kuhusu </a> 
+			<a href = "services.html"> huduma </a>
+			<a href = "contact.html"> mawasiliano </a>
 		</nav>
 	</div>
-	
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <img src="./kuku.jpg" style="width:75%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./mayai.jpg" style="width:75%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./vifaranga.jpg" style="width:100%">
-</div>
-	<div class="mySlides fade">
-		<img src="./wengi kuku.jpg" style="width:75%">
-	</div>
-
-<div class = "row-huduma">
-	<h1> HUDUMA ZINAZOTOLEEWA </h1>
-	<p>Huduma zinazotolewa ni kama picha zinavyoonekana hapo juu kwenye picha ambazo ni kuku, mayai, na vifaranga </p>
-</div>
-
-<div class = "kuku">
-	<h1> KUKU </h1> 
-	<p> Kuku tunaowatoa ni wa kienyeji, wapo wa kufuga, wa nyama na wa mayai </p>
-</div>
-
-<div class = "van">
-	<h1> MAYAI </h1>
-	<p>Pia kuna mayai ya kienyaji ambayo yanaweza kutotoleshwa na vifaranga vikatoka vikubwa na vyenye afya ya kutosha </p>
-</div>	
-
-<div class = "yoo">
-	<h1> VIFARANGA </h1>
-	<p> kuna vifaranga vya rika zote na aina zote(mitetea na majogoo) pia kuna viferanga kwa ajili ya kufuga na kula </p>
 	</div>
 	
-	<hr> 
+	<div class= "row">
+		<img class= "slider"  src = "./kuku.jpg" width = "100%" height = "450px">
+	</div>
+	
+	<h1 class = "ray"> HUDUMA ZINAOPATIKANA </h1>
+	<div class="row">
+<div class = "column body">
+	<img src= "./wengi kuku.jpg" width = "100%" height = "300px">
+	<p> Hawa ni kuku wa nyama pamoja na mayai na wanatikana kwa bei nafuu </p>
+</div>
+
+<div class = "column wewe">
+	<img src = "./vifaranga2.jpg" width = "100%" height = "300px">
+		<p> Kwa wale watahitaji vifaranga wa kufuga wanapatikana wa aina yote  </p>
+</div>
+
+<div class = "column yebaba">
+	<img src = "./mayai2.jpg" width = "100%" height = "300px">
+		<p> kuna mayi ya kisasa pia kwa wale wanaohitaji mayai kwa ajili ya kutotolesha yapo </p>
+</div>
+</div>
+	
+		<hr>		
 <div class = "footer">
 	<div class = "column">
 		<img src = "logo.png">
@@ -89,26 +63,7 @@
 	<h1> huduma </h1>
 	<p> huduma inayopatikana nia ya mayai, kuku, na vifaranga. </p>
 </div>
-	
-	
-	
+</div>
 
 </body>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
 </html>
