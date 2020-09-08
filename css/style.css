@@ -1,239 +1,88 @@
 *{
-	padding:0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
-
-.row{
-	width:100vw;
-	display:flex;
-	align-items: center;
-	justify-content:center;
-	padding:10px 20px;
-	
-}
-.row h1{
-	padding:30px;
-	margin:10px;
-	align-items:center;
-}
-.header-row{
-	width:100%;
-	height: 20vh;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	background-color:white;
-	padding:30px;
-}
-.center{
-	margin: 0px 45%;
-}
-.logo{
-	flex:1;
-	padding-left:20px;
-	width:100%;
-	height:100%;
-	font-size:25px;
-}
-.logo img{
-	height: 20vh;
-}
-nav{
-	flex:2;
-	display:flex;
-}
-
-nav a{
-	flex:1;
-	padding: 10px;
-	color:rgb(0,0,0);
-	font-size:30px;
-	text-decoration:none;
-}
-
-.row-kuhusu{
-	padding: 20px 100px;
-}
-
-.row-kuhusu p{
-	padding:0px 100px;
-	font-size:25px;
-}
-
-
-
-.about h1{
-	flex:1;
-	font-size: 50px;
-}
-.about p{
-	flex:2;
-	font-size: 300px;
-	padding:20px;
-}
-
-.huduma{
-	width: 90%;
-	margin: auto;
-}
-.border{
-	padding:10px;
-	height: 250px;
-	flex: 1;
-	margin:10px;
-	border-style: solid;
-	border-color: #111111;
-	border-width: 3px;
-	
-}
-
-
-.column h1{
-	flex:1;
-	font-size: 20px;
-}
-.column p{
-	flex:2;
-	font-size: 20px;
-}
-label{
-	padding: 1p
-}
-
-
-
-label{
-	padding: 3px;
-}
-
-.kuhusu{
-	padding: 50px 100px;
-}
-
-.kuhusu h1{
-	flex:1;
-	font-size: 25px;
-}
-.kuhusu p{
-	flex: 2;
-	font-size: 20px;
-}
-.body, .wewe{
-	padding: 0px 20px;
-	margin:50px;
-}
-.yebaba{
-	padding:0px 10px;
-	margin:50px;
-}
 .footer{
-	padding: 3px;
+	background-color: #2d2d2d;
+	color: white;
+}
+.row{
 	display: flex;
 	align-items: center;
-	background-color:#2d2d2d;
+	justify-content: center;
+	padding: 20px 0px;
+}
+.cta{
+	background-color: #f3f3f3;
+	margin: 30px 0px 0px 0px;
+}
+.cta .call{
+	flex: 3;
+	text-align: center;
+}
+.cta .action{
+	flex: 1;
+}
+.action .btn{
+	border: 1px solid #111111;
+	border-radius: 5px;
+	background-color: #111111;
 	color: white;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.column{
+	flex: 1;
+	padding: 10px;
+}
+.logo{
+	flex: 1;
+}
+nav{
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding:10px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	margin:10px 20px;
+}
+.about{
+	padding: 20px 200px;
+	text-align: center;
+	margin:20px 20px;
+}
+.services{
+	padding: 30px 100px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.services .column{
+	border:1px solid #111111;
+	margin:20px 25px;
+}
+
+.form{
 	
 }
-.a{
-	flex: 1;
-}
-.b{
-		flex:1;
-		font-size: 12px;
-}
-
-
-
-
-.colmn{
-	flex:3;
-	padding:0px 20px;
-}
-
-.centered-title{
-	padding: 30px;
-	font-size: 30px;
-}
-
-.form {
-	padding: 50px;
-	background-color: #f3f3f3;
-}
 .form h3{
-	padding: 0px 50px;
-	font-size: 30px;
 	flex: 1;
+	font-size: 30px;
+	padding: 10px 50px;
 }
 .form form{
 	flex: 1;
-	border: 1px solid black;
-	padding: 20px;
-	border-radius: 5px;
 }
-.form form label{
-	padding: 10px 0px;
-}
-.form input{
-	margin: 10px 20px;
-	height: 30px;
+form input{
 	width: 80%;
-	
+	height: 30px;
+	margin: 10px 0px;
 }
-
-.row, .contact h3{
-	padding:20px 50px;
-	text-align:center;
-	font-size:30px;
-	margin:10px;
-}
-
-.row, .information h3{
-	padding:20px 50px;
-	text-align:center;
-	font-size:30px;
-	margin:10px;
-}
-
-.row-call{
-	display: flex;
-	padding:20px;
-	margin:10px 20px;
-	align-items:center;
-	width: 100vw;
-}
-
-.column{
-flex:1;
-padding:10px;
-align-self: flex-start;
-}
-.column img{
-	display: block;
-}
-.column h1{
-	padding:15px;
-}
-
-.column p{
-	font-size:18px;
-}
-.ray{
-	padding:20px;
-	flex:2;
-	margin:30px;
-	text-align:center;
-	
-}
-
-
-	
-
-
-
-
-
-
-
-
-
