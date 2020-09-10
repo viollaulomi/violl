@@ -13,6 +13,19 @@
 	justify-content: center;
 	padding: 20px 0px;
 }
+.bady{
+	flex:1;
+	padding: 0px 10px 0px 150px;
+}
+
+.body{
+	flex:1.5;
+	padding:0px 20px;
+	text-align:center;
+}
+.column {
+	padding:50px;
+}
 .cta{
 	background-color: #f3f3f3;
 	margin: 30px 0px 0px 0px;
@@ -26,7 +39,7 @@
 }
 .action .btn{
 	border: 1px solid #111111;
-	border-radius: 5px;
+	border-radius: 20px;
 	background-color: #111111;
 	color: white;
 	padding: 10px;
@@ -35,7 +48,7 @@
 }
 .column{
 	flex: 1;
-	padding: 10px;
+	padding: 20px;
 }
 .logo{
 	flex: 1;
