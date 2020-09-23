@@ -71,7 +71,8 @@ nav a{
 	color: red;
 	margin:10px 30px;
 	padding:0px 20px;
-.}
+}
+
 .about{
 	padding: 20px 300px;
 	text-align: center;
@@ -89,6 +90,9 @@ nav a{
 	box-shadow: 1px 1px 20px 1px;
 	margin:20px 25px;
 	font-size: 18px;
+}
+.huduma{
+	padding:20px 0px;
 }
 
 .form h3{
