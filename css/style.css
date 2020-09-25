@@ -1,3 +1,6 @@
+
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -11,29 +14,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.body1{
-	background-color: #f3f3f3;
-}
-
-.bady{
-	flex:1;
-	padding: 0px 10px 0px 150px;
-}
-
-.body{
-	flex:1.5;
-	padding:0px 30px;
-	text-align:center;
-	font-size:18px ;
-}
-.column {
-	padding:50px;
+	padding: 20px 0px;
 }
 .cta{
 	background-color: #f3f3f3;
 	margin: 30px 0px 0px 0px;
-	padding: 25px;
 }
 .cta .call{
 	flex: 3;
@@ -44,7 +29,7 @@
 }
 .action .btn{
 	border: 1px solid #111111;
-	border-radius: 20px;
+	border-radius: 5px;
 	background-color: #111111;
 	color: white;
 	padding: 10px;
@@ -53,7 +38,7 @@
 }
 .column{
 	flex: 1;
-	padding: 20px;
+	padding: 10px;
 }
 .logo{
 	flex: 1;
@@ -63,18 +48,37 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding:10px;
+	background-color: #999999;
+	border-radius: 20px;
 }
 nav a{
-	text-decoration: none;
-	font-size: 30px;
-	color: red;
-	margin:10px 30px;
-	padding:0px 20px;
-}
 
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	margin:10px 20px;
+	color:#FF2400 ;
+}
+.body1{
+	background-color: #f3f3f3;
+}
+.bady{
+	flex: 1;
+	margin: 0px 60px;
+	display: flex;
+	padding-left: 40px;
+	
+}
+.body{
+	justify-content: center;
+	flex: 2;
+	margin: 0px 100px;
+	padding-right: 40px;
+	margin-left: 0.5px;
+	font-size: 18px;
+}
 .about{
-	padding: 20px 300px;
+	padding:50px 90px;
 	text-align: center;
 	margin:20px 20px;
 	font-size: 18px;
@@ -84,17 +88,12 @@ nav a{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: ;
-}
-.services .column{
-	box-shadow: 1px 1px 20px 1px;
-	margin:20px 25px;
-	font-size: 18px;
-}
-.huduma{
-	padding:20px 0px;
 }
 
+.services .column{
+	box-shadow: 1px 1px 5px 1px #888;
+	margin:20px 25px;
+}
 .form h3{
 	flex: 1;
 	font-size: 30px;
@@ -107,21 +106,4 @@ form input{
 	width: 80%;
 	height: 30px;
 	margin: 10px 0px;
-}
-/* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-@media (max-width: 600px){
-	.row, nav{
-		flex-direction: column;
-	}
 }
