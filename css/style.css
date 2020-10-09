@@ -83,6 +83,9 @@ nav a{
 	margin:20px 20px;
 	font-size: 18px;
 }
+.about p{
+	align-items: center;
+}
 .services{
 	padding: 30px 100px;
 	align-items: center;
