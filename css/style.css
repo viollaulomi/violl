@@ -76,13 +76,33 @@ nav a{
 	margin-left: 0.5px;
 	font-size: 18px;
 }
-.uhamasishaji{
+.row .uhamasishaji{
+	float: left;
 	flex: 1;
-	margin: 0px 60px;
+	margin: 0px 40px;
+	display: flex;
+	padding-left: 80px;
+	text-align: center;
+}
+
+.faida{
+	padding: 10px;
+	flex: 2;
+	font-size: 18px;
+}
+.row .madhara{
+	float: right;
+	flex: 1;
+	margin: 0px 20px;
 	display: flex;
 	padding-left: 40px;
-	box-shadow:1px 1px 5px 1px #888;
-	text-align: center;
+	justify-content: center;
+	
+}
+.hasara{
+	padding: 10px;
+	flex: 2;
+	font-size: 18px;
 }
 
 .about{
